@@ -1,0 +1,60 @@
+{
+  "name": "biosample",
+  "columns":  [
+    {
+      "name": "id",
+      "datatype": "string",
+      "type": "primary_key"
+    },
+    {
+      "name": "cross_references",
+      "datatype": "string",
+      "type": "repeated"
+    },
+    {
+      "name": "time_created",
+      "datatype": "timestamp",
+      "type": "required"
+    },
+    {
+      "name": "source",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "date_obtained",
+      "datatype": "timestamp",
+      "type": "required"
+    },
+    {
+      "name": "derived_from_biosample_id",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "biosample_type",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "donor_id",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "lab",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "submitted_by",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "product_id",
+      "datatype": "string",
+      "type": "required"
+    }
+  ]
+}
