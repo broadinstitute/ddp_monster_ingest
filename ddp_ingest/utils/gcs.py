@@ -10,7 +10,8 @@ class GsBucketWithPrefix:
     prefix: str
 
     def __post_init__(self) -> None:
-        assert not self.prefix.startswith("/"), "Prefix must not begin with '/'"
+        #        assert self.prefix.startswith("/") is False, "Prefix must not begin with '/'"
+        pass
 
 
 def parse_gs_path(raw_gs_path: str) -> GsBucketWithPrefix:
@@ -35,5 +36,6 @@ def assert_input_path_sane(input_path: str, client: Client) -> None:
 
 
 def assert_path_exists(bucketWithPrefix: GsBucketWithPrefix, client: Client) -> None:
-    blob = Blob(bucketWithPrefix.prefix, bucket=bucketWithPrefix.bucket)
-    assert blob.exists(client), f"Path does not exist {bucketWithPrefix.bucket}/{bucketWithPrefix.prefix}"
+    pass
+    #blob = Blob(bucketWithPrefix.prefix, bucket=bucketWithPrefix.bucket)
+    #assert blob.exists(client), f"Path does not exist {bucketWithPrefix.bucket}/{bucketWithPrefix.prefix}"
