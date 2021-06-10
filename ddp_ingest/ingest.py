@@ -1,8 +1,7 @@
 import json
 import io
 
-import data_repo_client
-import google.cloud.storage.iam
+from data_repo_client import RepositoryApi
 from dagster import ModeDefinition, pipeline, solid, ResourceDefinition, InputDefinition, Nothing
 from dagster.core.execution.context.compute import AbstractComputeExecutionContext
 from dagster_utils.contrib.data_repo.typing import JobId
@@ -22,7 +21,7 @@ test_mode = ModeDefinition(
     name="test",
     resource_defs={
         "target_dataset": target_dataset,
-        "data_repo_client": ResourceDefinition.hardcoded_resource(Mock(spec=data_repo_client.RepositoryApi)),
+        "data_repo_client": ResourceDefinition.hardcoded_resource(Mock(spec=RepositoryApi)),
         "gcs": ResourceDefinition.hardcoded_resource(build_mock_storage_client()),
         "input_path": input_path,
         "load_tag": load_tag
@@ -86,8 +85,8 @@ def create_scratch_area(context: AbstractComputeExecutionContext) -> GsBucketWit
             continue
 
         payload = {
-            "source_path": f"gs://{blob.bucket.name}/{blob.name}",
-            "target_path": f"/{blob.name}"
+            "sourcePath": f"gs://{blob.bucket.name}/{blob.name}",
+            "targetPath": f"/{blob.name}"
         }
         xfer_requests.append(json.dumps(payload))
 
@@ -96,7 +95,7 @@ def create_scratch_area(context: AbstractComputeExecutionContext) -> GsBucketWit
     out.write("\n".join(xfer_requests))
 
     bucket = storage_client.bucket(scratch_bucket_with_prefix.bucket)
-    destination_blob_name = f"{scratch_bucket_with_prefix.prefix}/data_transfer_requests.json"
+    destination_blob_name = f"{scratch_bucket_with_prefix.prefix}/data-transfer-requests/data_transfer_requests.json"
     blob = bucket.blob(destination_blob_name)
 
     blob.upload_from_string(out.getvalue())

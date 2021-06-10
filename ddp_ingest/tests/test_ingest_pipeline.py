@@ -1,10 +1,9 @@
 from dagster import execute_pipeline
-from dagster.core.definitions.reconstructable import ReconstructablePipeline
 
 from ddp_ingest.ingest import ingest_ddp_data_pipeline
 
 
-def test_something():
+def test_pipeline():
     config = {
         'resources': {
             'input_path': {
