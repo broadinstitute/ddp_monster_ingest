@@ -8,7 +8,8 @@
     },
     {
       "name": "file_id",
-      "datatype": "string"
+      "datatype": "fileref",
+      "type": "repeated"
     },
     {
       "name": "cross_references",
