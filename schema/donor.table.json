@@ -1,0 +1,75 @@
+{
+  "name": "donor",
+  "columns":  [{
+    "name": "id",
+    "datatype": "string",
+    "type": "primary_key"
+  },
+    {
+      "name": "label",
+      "datatype": "string"
+    },
+    {
+      "name": "cross_references",
+      "datatype": "string",
+      "type": "repeated"
+    },
+    {
+      "name": "diagnosis",
+      "datatype": "string",
+    },
+    {
+      "name": "disease",
+      "datatype": "string",
+    },
+    {
+      "name": "ethnicity",
+      "datatype": "string",
+    },
+    {
+      "name": "organism_type",
+      "datatype": "string",
+    },
+    {
+      "name": "race",
+      "datatype": "string",
+      "type": "repeated"
+    },
+    {
+      "name": "age_unit",
+      "datatype": "integer"
+    },
+    {
+      "name": "age_category",
+      "datatype": "string"
+    },
+    {
+      "name": "age_lifestage",
+      "datatype": "string"
+    },
+    {
+      "name": "year_of_birth",
+      "datatype": "integer"
+    },
+    {
+      "name": "date_of_majority",
+      "datatype": "string"
+    },
+    {
+      "name": "country",
+      "datatype": "string"
+    },
+    {
+      "name": "postal_code",
+      "datatype": "string"
+    },
+    {
+      "name": "referral_source",
+      "datatype": "string"
+    },
+    {
+      "name": "experience",
+      "datatype": "string"
+    }
+  ]
+}
