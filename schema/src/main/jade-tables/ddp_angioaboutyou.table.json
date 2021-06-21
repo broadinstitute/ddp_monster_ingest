@@ -1,0 +1,101 @@
+{
+  "name": "ddp_angioaboutyou",
+  "columns":  [
+    {
+      "name": "id",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "label",
+      "datatype": "string"
+    },
+    {
+      "name": "activityCode",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "activityVersion",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "createdAt",
+      "datatype": "timestamp"
+    },
+    {
+      "name": "completedAt",
+      "datatype": "timestamp"
+    },
+    {
+      "name": "lastUpdatedAt",
+      "datatype": "timestamp"
+    },
+    {
+      "name": "diagnosisDate",
+      "datatype": "timestamp"
+    },
+    {
+      "name": "isPartOf",
+      "datatype": "string"
+    },
+    {
+      "name": "hasDonor",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "diagnosisLocation",
+      "datatype": "string"
+    },
+    {
+      "name": "diagnosisLocationDetail",
+      "datatype": "string"
+    },
+    {
+      "name": "everLocation",
+      "datatype": "string"
+    },
+    {
+      "name": "currentLocation",
+      "datatype": "string"
+    },
+    {
+      "name": "surgery",
+      "datatype": "string"
+    },
+    {
+      "name": "radiation",
+      "datatype": "string"
+    },
+    {
+      "name": "radiationSurgery",
+      "datatype": "string"
+    },
+    {
+      "name": "allTreatments",
+      "datatype": "string"
+    },
+    {
+      "name": "currentlyTreated",
+      "datatype": "string"
+    },
+    {
+      "name": "otherCancer",
+      "datatype": "string"
+    },
+    {
+      "name": "otherCancerRadiation",
+      "datatype": "string"
+    },
+    {
+      "name": "otherCancerRadiationLoc",
+      "datatype": "string"
+    },
+    {
+      "name": "parentInstanceGuid",
+      "datatype": "string"
+    }
+  ]
+}

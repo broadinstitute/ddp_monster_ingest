@@ -1,0 +1,105 @@
+{
+  "name": "ddp_biosample",
+  "columns":  [
+    {
+      "name": "id",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "label",
+      "datatype": "string"
+    },
+    {
+      "name": "hasCrossReference",
+      "datatype": "string"
+    },
+    {
+      "name": "hasBioSampleType",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "wasDerivedFrom",
+      "datatype": "string"
+    },
+    {
+      "name": "hasDateCollected",
+      "datatype": "timestamp"
+    },
+    {
+      "name": "hasPreservationState",
+      "datatype": "string"
+    },
+    {
+      "name": "hasAnatomicalSite",
+      "datatype": "string"
+    },
+    {
+      "name": "hasSelectedCellType",
+      "datatype": "string"
+    },
+    {
+      "name": "wasUsedBy",
+      "datatype": "string"
+    },
+    {
+      "name": "hasDonor",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "isPartOf",
+      "datatype": "string"
+    },
+    {
+      "name": "hasDonorAge",
+      "datatype": "string"
+    },
+    {
+      "name": "trackingIn",
+      "datatype": "timestamp"
+    },
+    {
+      "name": "kitType",
+      "datatype": "string"
+    },
+    {
+      "name": "kitCarrier",
+      "datatype": "string"
+    },
+    {
+      "name": "kitLabel",
+      "datatype": "string"
+    },
+    {
+      "name": "bspCollaboratorSampleId",
+      "datatype": "string"
+    },
+    {
+      "name": "kitRequestId",
+      "datatype": "string"
+    },
+    {
+      "name": "trackingOut",
+      "datatype": "string"
+    },
+    {
+      "name": "kitDelivered",
+      "datatype": "timestamp"
+    },
+    {
+      "name": "kitReceived",
+      "datatype": "timestamp"
+    },
+    {
+      "name": "kitSent",
+      "datatype": "timestamp"
+    },
+    {
+      "name": "bspCollaboratorParticipantId",
+      "datatype": "string",
+      "type": "required"
+    }
+  ]
+}

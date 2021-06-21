@@ -1,0 +1,79 @@
+{
+  "name": "ddp_dataset",
+  "columns":  [
+    {
+      "name": "id",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "label",
+      "datatype": "string"
+    },
+    {
+      "name": "hasCrossReference",
+      "datatype": "string"
+    },
+    {
+      "name": "title",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "description",
+      "datatype": "string"
+    },
+    {
+      "name": "conformsTo",
+      "datatype": "string"
+    },
+    {
+      "name": "contactPoint",
+      "datatype": "string"
+    },
+    {
+      "name": "hasOwner",
+      "datatype": "string"
+    },
+    {
+      "name": "hasDataUsePermission",
+      "datatype": "string"
+    },
+    {
+      "name": "keyword",
+      "datatype": "string"
+    },
+    {
+      "name": "contributor",
+      "datatype": "string"
+    },
+    {
+      "name": "license",
+      "datatype": "string"
+    },
+    {
+      "name": "wasAssociatedWith",
+      "datatype": "string"
+    },
+    {
+      "name": "wasGeneratedBy",
+      "datatype": "string"
+    },
+    {
+      "name": "hasDataModality",
+      "datatype": "string"
+    },
+    {
+      "name": "isFundedBy",
+      "datatype": "string"
+    },
+    {
+      "name": "hasOriginalPublication",
+      "datatype": "string"
+    },
+    {
+      "name": "isPrincipalInvestigator",
+      "datatype": "string"
+    }
+  ]
+}

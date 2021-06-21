@@ -1,0 +1,61 @@
+{
+  "name": "ddp_angiorelease",
+  "columns":  [
+    {
+      "name": "id",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "label",
+      "datatype": "string"
+    },
+    {
+      "name": "activityCode",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "activityVersion",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "createdAt",
+      "datatype": "timestamp"
+    },
+    {
+      "name": "completedAt",
+      "datatype": "timestamp"
+    },
+    {
+      "name": "lastUpdatedAt",
+      "datatype": "timestamp"
+    },
+    {
+      "name": "isPartOf",
+      "datatype": "string"
+    },
+    {
+      "name": "hasDonor",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "physician",
+      "datatype": "string"
+    },
+    {
+      "name": "initialBiopsy",
+      "datatype": "string"
+    },
+    {
+      "name": "releaseAgreement",
+      "datatype": "boolean"
+    },
+    {
+      "name": "parentInstanceGuid",
+      "datatype": "string"
+    }
+  ]
+}

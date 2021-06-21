@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0mGenerating BigQuery metadata for table ddp_donor[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote BigQuery metadata to /Users/aherbst/src/ddp_ingest/schema/src/main/dataset_schema/ddp_donor/[0m
+[0m[[0m[0minfo[0m] [0m[0mGenerating BigQuery metadata for table ddp_dataset[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote BigQuery metadata to /Users/aherbst/src/ddp_ingest/schema/src/main/dataset_schema/ddp_dataset/[0m
+[0m[[0m[0minfo[0m] [0m[0mGenerating BigQuery metadata for table ddp_biosample[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote BigQuery metadata to /Users/aherbst/src/ddp_ingest/schema/src/main/dataset_schema/ddp_biosample/[0m
+[0m[[0m[0minfo[0m] [0m[0mGenerating BigQuery metadata for table ddp_angioaboutyou[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote BigQuery metadata to /Users/aherbst/src/ddp_ingest/schema/src/main/dataset_schema/ddp_angioaboutyou/[0m
+[0m[[0m[0minfo[0m] [0m[0mGenerating BigQuery metadata for table ddp_angiorelease[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote BigQuery metadata to /Users/aherbst/src/ddp_ingest/schema/src/main/dataset_schema/ddp_angiorelease/[0m

@@ -1,0 +1,79 @@
+{
+  "name": "ddp_donor",
+  "columns":  [
+    {
+      "name": "id",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "label",
+      "datatype": "string"
+    },
+    {
+      "name": "hasCrossReference",
+      "datatype": "string"
+    },
+    {
+      "name": "hasDiagnosis",
+      "datatype": "string"
+    },
+    {
+      "name": "hasDisease",
+      "datatype": "string"
+    },
+    {
+      "name": "hasEthnicity",
+      "datatype": "string"
+    },
+    {
+      "name": "hasOrganismType",
+      "datatype": "string",
+      "type": "required"
+    },
+    {
+      "name": "hasRace",
+      "datatype": "string"
+    },
+    {
+      "name": "Age_hasAgeUnit",
+      "datatype": "string"
+    },
+    {
+      "name": "Age_hasAgeCategory",
+      "datatype": "string"
+    },
+    {
+      "name": "Age_hasLifestage",
+      "datatype": "string"
+    },
+    {
+      "name": "yearOfBirth",
+      "datatype": "integer"
+    },
+    {
+      "name": "isPartOf",
+      "datatype": "string"
+    },
+    {
+      "name": "yearOfMajority",
+      "datatype": "integer"
+    },
+    {
+      "name": "country",
+      "datatype": "string"
+    },
+    {
+      "name": "postalCode",
+      "datatype": "string"
+    },
+    {
+      "name": "referralSource",
+      "datatype": "string"
+    },
+    {
+      "name": "experience",
+      "datatype": "string"
+    }
+  ]
+}
