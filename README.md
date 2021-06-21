@@ -16,8 +16,7 @@ Once table schemas are in place, the dataset schema can be generated using our s
 3. The schema will be placed in `schema/target/schema.json`. This directory is under source control so we can track dataset schema changes. Placing a `target`
 directory under source control is not a great practice, but the output path is hardcoded in our schema generation tooling. Until we implement a change to 
    parameterize this, we'll track the schema this way.
-
-*Note:* We should 
+   
 
 ### Creating a Dataset
 Submit the schema created above as your schema field when creating a dataset with the Jade `createDataset` (endpoint)[https://data.terra.bio/swagger-ui.html#/repository/createDataset].
