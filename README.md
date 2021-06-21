@@ -19,7 +19,7 @@ directory under source control is not a great practice, but the output path is h
    
 
 ### Creating a Dataset
-Submit the schema created above as your schema field when creating a dataset with the Jade `createDataset` (endpoint)[https://data.terra.bio/swagger-ui.html#/repository/createDataset].
+Submit the schema created above as your schema field when creating a dataset with the Jade `createDataset` [endpoint](https://data.terra.bio/swagger-ui.html#/repository/createDataset).
 
 This is an example payload for the endpoint:
 
