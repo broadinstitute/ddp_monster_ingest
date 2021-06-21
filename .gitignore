@@ -1,3 +1,4 @@
 .idea
+streams/
 __pycache__
 .autoenv.zsh
